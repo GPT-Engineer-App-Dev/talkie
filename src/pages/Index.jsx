@@ -32,9 +32,6 @@ const Index = () => {
             <Link to="/about" style={{ textDecoration: 'none' }}>
               <Text fontSize="md" color="blue.500" fontWeight="bold" p={2}>About</Text>
             </Link>
-            <Link to="/about" style={{ textDecoration: 'none' }}>
-              <Text fontSize="md" color="blue.500" fontWeight="bold" p={2}>About</Text>
-            </Link>
           </HStack>
           <VStack spacing={4} height="400px" overflowY="auto" width="100%" bg="gray.50" p={4} borderRadius="md">
             {messages.map((message, index) => (
