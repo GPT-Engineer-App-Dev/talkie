@@ -1,5 +1,5 @@
 import { Box, Flex, Input, Button, Text, VStack, HStack, IconButton, useToast, Link } from '@chakra-ui/react';
-import { Link } from 'react-router-dom';
+
 import { FaPaperPlane, FaUserCircle } from 'react-icons/fa';
 import { useState } from 'react';
 
@@ -29,6 +29,9 @@ const Index = () => {
           <HStack justifyContent="space-between">
             <Text fontSize="2xl" fontWeight="bold">Chat App</Text>
             <IconButton icon={<FaUserCircle />} fontSize="24px" variant="ghost" aria-label="User Profile" />
+            <Link to="/about" style={{ textDecoration: 'none' }}>
+              <Text fontSize="md" color="blue.500" fontWeight="bold" p={2}>About</Text>
+            </Link>
             <Link to="/about" style={{ textDecoration: 'none' }}>
               <Text fontSize="md" color="blue.500" fontWeight="bold" p={2}>About</Text>
             </Link>
