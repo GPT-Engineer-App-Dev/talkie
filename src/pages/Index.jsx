@@ -1,4 +1,5 @@
-import { Box, Flex, Input, Button, Text, VStack, HStack, IconButton, useToast, Link } from '@chakra-ui/react';
+import { Box, Flex, Input, Button, Text, VStack, HStack, IconButton, useToast } from '@chakra-ui/react';
+import { Link } from 'react-router-dom';
 
 import { FaPaperPlane, FaUserCircle } from 'react-icons/fa';
 import { useState } from 'react';
