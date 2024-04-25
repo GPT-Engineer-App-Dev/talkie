@@ -10,14 +10,14 @@ const About = () => {
             The Chat App is designed to provide a simple and intuitive platform for users to communicate effectively.
             With real-time messaging capabilities, users can send and receive messages instantly.
           </Text>
-          <Text fontSize="lg">
+          <Box fontSize="lg">
             Features include:
             <ul>
               <li>Real-time messaging</li>
               <li>User profiles</li>
               <li>Customizable themes</li>
             </ul>
-          </Text>
+          </Box>
         </VStack>
       </Box>
     </Flex>
